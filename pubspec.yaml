@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_map: ">=0.8.0 <1.0.0"
+  flutter_map:
+    git:
+        url: https://github.com/sudar-life/flutter_map.git
+        ref: add-metadata-in-marker-class
 
   latlong: ">=0.6.0 <1.0.0"
 
